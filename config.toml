@@ -2,6 +2,17 @@ theme = "gruvbox"
 
 [editor]
 line-number = "relative"
+auto-completion = true
+auto-format = true
+auto-save = true
+completion-trigger-len = 1
+clipboard-provider = "pasteboard"
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 40
+wrap-indicator = "↪ "
 
 [editor.cursor-shape]
 insert = "bar"
